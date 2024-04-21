@@ -32,7 +32,7 @@ function get_options() {
   return { showLandmarks, showExpression, showAgeAndGender }
 }
 
-const MODEL_PATH = '/face-api-models'
+const MODEL_PATH = './face-api-models'
 function load_models() {
   return Promise.all([
     loadTinyFaceDetectorModel(MODEL_PATH),
