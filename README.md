@@ -8,7 +8,7 @@ $ cd face-api-js-demo
 $ pnpm i && pnpm dev
 ```
 
-Then [http://localhost:4000] will open automatically in your default browser.
+Then [http://localhost:4000](http://localhost:4000) will open automatically in your default browser.
 
 ## License
 
