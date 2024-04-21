@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>face-api.js demo</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <form>
+      <input id="show_landmarks" name="show_landmarks" checked="checked" type="checkbox" />
+      <label for="show_landmarks">show landmarks</label>
+      <input id="show_expression" name="show_expression" checked="checked" type="checkbox" />
+      <label for="show_expression">show expression</label>
+      <input id="show_age_and_gender" name="show_age_and_gender" checked="checked" type="checkbox" />
+      <label for="show_age_and_gender">show age and gender</label>
+    </form>
+    <div id="app">
+      <video id="source" autoplay muted></video>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
