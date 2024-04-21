@@ -45,7 +45,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
 
-      - run: pnpm install && pnpm run bootstrap
+      - run: pnpm install
       - run: pnpm run build --base=/face-js-api-demo/
 
       - uses: actions/configure-pages@v5
